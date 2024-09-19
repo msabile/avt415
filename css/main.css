@@ -70,7 +70,7 @@ a:before {
   height: 3px;
   transition: all 0.3s ease-in-out;
 }
-
+/* make separate class for image hovers */
 a:hover {
  background-position: 0;
 }
@@ -80,5 +80,5 @@ a:hover::before {
 }
 
 img{
-      width: 75%;
+      width: 50%;
     }
