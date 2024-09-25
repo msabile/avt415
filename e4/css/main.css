@@ -1,0 +1,68 @@
+body {
+	background-color: royalblue;
+}
+
+.honk-bday {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-size: 100px;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+.honk-inside {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+h1 {
+	font-family: 'honk';
+ 	font-weight: 400;
+	font-size: 60px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: 40vh; /* will be responsive in proportion to the height */
+}
+
+h2 {
+	font-family: 'honk';
+ 	font-weight: 400;
+	font-size: 60px;
+	text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+
+@media screen and (max-width: 767px) {
+	img {
+		display: none;
+	}
+	h2 {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 768px) {
+/* styles for screen sizes 1024px and above */
+	body {
+		background-color: orange;
+	}
+	h1 {
+	display: none;
+}
+}
